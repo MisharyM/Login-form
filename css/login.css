@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    background: url(../images/backgroundmoon.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.card .container{
+    background: transparent;
+    position: relative;
+    top: 200px;
+    left: 1%;
+    backdrop-filter:blur(10px);
+    border-radius: 68px;
+    border: none;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 506px;
+    height: 571px;
+    border: 1px white solid;
+}
+
+.card .container img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: 38%;
+    top: 35px;
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px rgb(0, 0, 0);
+}
+
+.card .container form{
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 120px;
+    line-height: 4;
+    filter: drop-shadow( 0px 0px 2px rgb(2, 2, 2));
+    
+
+}
+
+
+
+.card .container form .icon{
+ position: relative;
+ right: 20px;
+}
+.card .container form .email input{
+    width: 250px;
+    height: 30px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    
+}
+.card .container form .email input::placeholder{
+    font-size: 18px;
+}
+
+.card .container form .email input:active{
+   width: 255px;
+}
+
+.card .container form .password input{
+    width: 250px;
+    height: 30px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border:none;
+}
+
+.card .container form .password input::placeholder{
+    font-size: 18px;
+}
+
+.card .container form .password input:active{
+    width: 255px;
+ }
+ 
+
+.card .container form .login button{
+    width: 324px;
+    height: 51px;
+    position: relative;
+    right: 20px;
+    top: 30px;
+    background: rgba(255, 255, 255, 0.26);
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.3s;        
+}
+
+.card .container form .login button:active{
+    width: 345;
+    background-color: white;
+  
+   
+}
+.card .container form .login button:hover{
+    background-color: transparent;
+    width: 330px;
+}
+ 
+.card .container form  a{
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    
+    
+    
+}
+
+.card .container form  a:hover{
+  
+    color: rgba(0, 0, 0, 0.329);
+
+}
+
+
+
+@media (max-width:1500px){
+    html{
+    background: url(../images/moon-wallpaper.jpg);
+   background-repeat: 1;
+        background-size: cover;
+}
+
+
+.card .container{
+    background: transparent;
+    position: relative;
+    top: 100px;
+    left: 1%;
+    backdrop-filter:blur(10px);
+    border-radius: 68px;
+    border: none;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 571px;
+    border: 1px white solid;
+}
+
+
+.card .container form{
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    line-height: 4;
+    filter: drop-shadow( 0px 0px 2px rgb(2, 2, 2));
+    
+
+}
+
+
+.card .container form .email input{
+    width: 200px;
+    height: 25px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    transition: 0.3s;
+}
+
+
+.card .container form .password input{
+    width: 200px;
+    height: 25px;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border:none;
+    transition: 0.3s;
+}
+
+
+
+
+.card .container form .login button{
+    width: 250px;
+    height: 51px;
+    position: relative;
+    right: 0px;
+    top: 30px;
+    background: rgba(255, 255, 255, 0.26);
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.3s;        
+}
+.card .container form .login button:hover{
+    background-color: transparent;
+    width: 260px;
+}
+
+.card .container img{
+position: relative;
+width: 100px;
+height: 100px;
+
+}
+
+}
